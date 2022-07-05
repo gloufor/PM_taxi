@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_menu">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/brov_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D9D9D9"
+                android:contentDescription="@string/string_rectangle_profile"
+                android:src="@drawable/rectangle7" />
+
+        <ImageView
+            android:id="@+id/image_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ellipse4"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:contentDescription="@string/image_profile" />
+
+        <TextView
+            android:id="@+id/fio_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/bashkirov_kirill"
+            android:textSize="15sp"
+            android:textColor="#FF000000"/>
+
+        <TextView
+            android:id="@+id/gorod_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/novosibirsk"
+            android:textColor="#FF000000"
+            android:textSize="15sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/ic_vector_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="75dp"
+            android:background="@drawable/ic_vector"
+            tools:ignore="ImageContrastCheck"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/menu_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:text="@string/menu_text"
+            android:textColor="#309EFF"
+            android:textSize="25sp"
+            tools:ignore="TextContrastCheck" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp">
+
+            <Button
+                android:id="@+id/prifole_menu"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="#F6BC1A"
+                android:text="Profile"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/history_menu"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:backgroundTint="#F6BC1A"
+                android:text="History"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/settings_menu"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="275dp"
+                android:backgroundTint="#F6BC1A"
+                android:text="Settings"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp">
+
+            <ImageView
+                android:id="@+id/logo_profile_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/vector6"
+                android:layout_marginLeft="55dp"/>
+            <ImageView
+                android:id="@+id/logo_history_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/vector5"
+                android:layout_centerHorizontal="true"/>
+            <ImageView
+                android:id="@+id/logo_settings_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/vector4"
+                android:layout_marginLeft="330dp"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

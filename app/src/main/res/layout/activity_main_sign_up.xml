@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_sign_in">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/city1"
+        android:backgroundTint="#80FFFFFF"
+        android:backgroundTintMode="add">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="370dp"
+                android:layout_marginTop="15dp"
+                android:contentDescription="@string/imageview1"
+                android:src="@drawable/Vector_info"
+                tools:ignore="ImageContrastCheck" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/string_imagiview"
+                android:src="@drawable/Vector1"
+                tools:ignore="ImageContrastCheck" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="38dp"
+                android:layout_marginLeft="68dp"
+                android:contentDescription="@string/string_imagiview1e"
+                android:src="@drawable/rectangle6" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="81dp"
+                android:layout_marginLeft="58dp"
+                android:contentDescription="@string/string_string_imagiviewgood"
+                android:src="@drawable/good" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="81dp"
+                android:layout_marginLeft="210dp"
+                android:contentDescription="@string/string_imagiviewtaxi"
+                android:src="@drawable/taxi"
+                tools:ignore="ImageContrastCheck" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="280dp"
+                android:contentDescription="@string/icon_user"
+                android:src="@drawable/Vector"
+                tools:ignore="ImageContrastCheck" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/textInputEditText3"
+                android:layout_width="325dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="40dp"
+                android:background="@xml/okrygl_layout"
+                android:gravity="top"
+                android:padding="13dp"
+                android:text="        youre-mail"
+                android:textColor="#757575"
+                android:textSize="11sp"
+                tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="11dp"
+                android:layout_marginLeft="50dp"
+                android:contentDescription="@string/pismo"
+                android:src="@drawable/vector_pismo"
+                tools:ignore="ImageContrastCheck" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/textInputEditText1"
+                android:layout_width="325dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="40dp"
+                android:background="@xml/okrygl_layout"
+                android:gravity="top"
+                android:padding="13dp"
+                android:text="       your password"
+                android:textColor="#757575"
+                android:textSize="11sp"
+                tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="11dp"
+                android:layout_marginLeft="50dp"
+                android:contentDescription="@string/codlock"
+                android:src="@drawable/vector_zamok"
+                tools:ignore="ImageContrastCheck" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="550dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/textInputEditText2"
+                android:layout_width="325dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="40dp"
+                android:background="@xml/okrygl_layout"
+                android:gravity="top"
+                android:padding="13dp"
+                android:text="       repeat password"
+                android:textColor="#757575"
+                android:textSize="11sp"
+                tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:layout_marginLeft="52dp"
+                android:contentDescription="@string/codlock1"
+                android:src="@drawable/vector_zamok"
+                tools:ignore="ImageContrastCheck" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="600dp">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:layout_marginStart="40dp"
+                android:background="#D9D9D9"
+                android:textColor="#D9D9D9"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="75dp"
+                android:text="@string/i_accept_the_terms_of_the_agreement"
+                android:textColor="#FFFFFFFF"
+                tools:ignore="TextContrastCheck" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="650dp">
+
+            <Button
+                android:id="@+id/sign_in"
+                android:layout_width="250dp"
+                android:layout_height="58dp"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="123sp"
+                android:layout_marginTop="50sp"
+                android:layout_marginEnd="15sp"
+                android:text="@string/sign_in"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                app:backgroundTint="#F6BC1A"
+                app:cornerRadius="10dp"
+                tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="760dp">
+
+            <TextView
+                android:id="@+id/have_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="137dp"
+                android:text="@string/have_an_account"
+                android:textColor="#FFFFFFFF"
+                android:textSize="17sp"
+                tools:ignore="TextContrastCheck" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
